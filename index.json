@@ -1,0 +1,46 @@
+{
+  "_index": ".kibana",
+  "_type": "doc",
+  "_id": "index-pattern:fbb3b990-6e0d-11e8-b559-99a2bce52c2a",
+  "_score": 1,
+  "_source": {
+    "type": "index-pattern",
+    "updated_at": "2018-06-12T06:58:18.863Z",
+    "index-pattern": {
+      "title": "log*",
+      "timeFieldName": "@timestamp",
+      "fields": """[{"name":"@timestamp","type":"date","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":true},{"name":"@version","type":"string","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":true},{"name":"_id","type":"string","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":false},{"name":"_index","type":"string","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":false},{"name":"_score","type":"number","count":0,"scripted":false,"searchable":false,"aggregatable":false,"readFromDocValues":false},{"name":"_source","type":"_source","count":0,"scripted":false,"searchable":false,"aggregatable":false,"readFromDocValues":false},{"name":"_type","type":"string","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":false},{"name":"geoip.ip","type":"ip","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":true},{"name":"geoip.latitude","type":"number","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":true},{"name":"geoip.location","type":"geo_point","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":true},{"name":"geoip.longitude","type":"number","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":true},{"name":"host","type":"string","count":0,"scripted":false,"searchable":true,"aggregatable":false,"readFromDocValues":false},{"name":"host.keyword","type":"string","count":0,"scripted":false,"searchable":true,"aggregatable":true,"readFromDocValues":true},{"name":"message","type":"string","count":0,"scripted":false,"searchable":true,"aggregatable":false,"readFromDocValues":false}]"""
+    }
+  }
+}
+
+{
+  "_index": ".kibana",
+  "_type": "doc",
+  "_id": "index-pattern:test",
+  "_score": 1,
+  "_source": {
+    "type": "index-pattern",
+    "updated_at": "2018-06-12T09:00:27.632656",
+    "index-pattern": {
+      "title": "test*",
+      "timeFieldName": "@timestamp",
+      "fields": """[{"name": "@timestamp", "type": "date", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": true}, {"name": "@version", "type": "string", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": true}, {"name": "_id", "type": "string", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": false}, {"name": "_index", "type": "string", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": false}, {"name": "_score", "type": "number", "count": 0, "scripted": false, "searchable": false, "aggregatable": false, "readFromDocValues": false}, {"name": "_source", "type": "_source", "count": 0, "scripted": false, "searchable": false, "aggregatable": false, "readFromDocValues": false}, {"name": "_type", "type": "string", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": false}, {"name": "geoip.ip", "type": "ip", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": true}, {"name": "geoip.latitude", "type": "number", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": true}, {"name": "geoip.location", "type": "geo_point", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": true}, {"name": "geoip.longitude", "type": "number", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": true}, {"name": "host", "type": "string", "count": 0, "scripted": false, "searchable": true, "aggregatable": false, "readFromDocValues": false}, {"name": "host.keyword", "type": "string", "count": 0, "scripted": false, "searchable": true, "aggregatable": true, "readFromDocValues": true}, {"name": "message", "type": "string", "count": 0, "scripted": false, "searchable": true, "aggregatable": false, "readFromDocValues": false}]"""
+    }
+  }
+}
+
+{
+  "_index": ".kibana",
+  "_type": "doc",
+  "_id": "config:6.2.4",
+  "_score": 1,
+  "_source": {
+    "type": "config",
+    "updated_at": "2018-06-12T06:58:19.375Z",
+    "config": {
+      "buildNum": 16627,
+      "defaultIndex": "fbb3b990-6e0d-11e8-b559-99a2bce52c2a"
+    }
+  }
+},

@@ -1,5 +1,5 @@
 from flask import Flask
-from kibana_object import KibanaObject
+from index import Index
 
 app = Flask(__name__)
 

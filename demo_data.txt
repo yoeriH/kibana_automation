@@ -1,5 +1,5 @@
 opens bash console to specified docker
-sudo docker exec -it <container-name> /bin/bash
+sudo docker exec -it elkdocker_elk_1 /bin/bash
 
 starts logstash so that you can create dummy data
 /opt/logstash/bin/logstash --path.data /tmp/logstash/data \
@@ -7,6 +7,26 @@ starts logstash so that you can create dummy data
 
 Dummy data "app_name, state"
 
+application_0 0
+application_1 0
+application_2 0
+application_3 1
+application_0 0
+application_1 0
+application_2 0
+application_3 1
+application_0 0
+application_1 0
+application_2 0
+application_3 1
+application_0 0
+application_1 0
+application_2 0
+application_3 1
+application_0 0
+application_1 0
+application_2 0
+application_3 1
 application_0 0
 application_1 0
 application_2 0
